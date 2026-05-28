@@ -235,6 +235,7 @@
           <li>IP address or approximate network-based location information</li>
           <li>Log data, diagnostics, error reports, and performance information</li>
           <li>Session activity and interaction events related to App usage</li>
+          <li>Product analytics events, feature usage, click events, navigation behavior, scrolling behavior, and session replay interaction data</li>
         </ul>
 
         <h2 id="how-we-use">3. How We Use Information</h2>
@@ -261,6 +262,9 @@
         <p>
           The App does not sell shopper personal data. The App only uses shopper-related data as reasonably necessary to provide the App’s features, improve performance, support merchants, and comply with applicable law.
         </p>
+        <p>
+          If analytics or session replay functionality is enabled on storefront-facing App experiences, limited shopper interaction data may be processed to understand feature usage, identify technical issues, measure engagement, and improve the App’s storefront functionality. Sensitive shopper information should not be intentionally collected through analytics or replay tools and may be masked, excluded, or limited where technically supported.
+        </p>
 
         <h2 id="analytics">5. Analytics and Performance Data</h2>
         <p>The App may generate and display analytics for merchants, including metrics related to:</p>
@@ -276,11 +280,29 @@
           These analytics are used to help merchants understand how their video content performs and how the App contributes to shopper engagement and purchase behavior.
         </p>
 
+        <h3>5.1 Product Analytics and Session Replay</h3>
+        <p>
+          The App uses PostHog, a product analytics and session replay service, to help us understand how merchants and users interact with the App, diagnose technical issues, improve usability, measure feature performance, and maintain the reliability and security of the service.
+        </p>
+        <p>
+          Through PostHog, the App may collect analytics and interaction data such as page views, clicks, navigation paths, feature usage, device and browser information, approximate location derived from network information, error events, performance data, and other usage events related to the App.
+        </p>
+        <p>
+          The App may also use session replay or screen replay functionality. Session replay may record a visual reconstruction of a user session, including mouse movements, clicks, scrolling, navigation behavior, and interactions with App screens. These recordings are used only for debugging, product improvement, usability analysis, support, fraud prevention, security, and troubleshooting.
+        </p>
+        <p>
+          We take steps designed to avoid collecting sensitive information through session replay. Where technically supported, sensitive fields and content such as passwords, payment information, authentication credentials, private customer data, and other confidential information are masked, hidden, or excluded from recordings. Merchants should not intentionally enter sensitive personal information into free-text fields or areas that are not intended to collect such information.
+        </p>
+        <p>
+          PostHog may process this information on our behalf as a service provider. We do not use PostHog analytics or session replay data to sell personal information or for unrelated third-party advertising purposes.
+        </p>
+
         <h2 id="sharing">6. Sharing of Information</h2>
         <p>The App may share information only in the following limited circumstances:</p>
         <ul>
           <li>With service providers and infrastructure partners that support hosting, storage, analytics, monitoring, customer support, and technical operations</li>
           <li>With Shopify, as necessary for App installation, operation, platform compliance, billing, and App-related services</li>
+          <li>With PostHog, our analytics and session replay provider, as necessary to collect product analytics, understand App usage, troubleshoot technical issues, improve user experience, and maintain service performance and security</li>
           <li>When required by law, regulation, subpoena, court order, or other lawful request</li>
           <li>To protect the rights, security, integrity, and operation of the App, merchants, shoppers, or the public</li>
           <li>In connection with a merger, acquisition, financing, reorganization, sale of assets, or similar corporate transaction</li>
@@ -295,6 +317,9 @@
         </p>
         <p>
           If a merchant uninstalls the App, data may be deleted or anonymized within a reasonable period, except where retention is required for legitimate business purposes, fraud prevention, security, accounting, recordkeeping, or legal compliance.
+        </p>
+        <p>
+          Analytics and session replay data may be retained for a limited period as necessary for product improvement, troubleshooting, security, support, and operational purposes. We may delete, aggregate, or anonymize analytics and replay data when it is no longer reasonably needed for these purposes, unless a longer retention period is required or permitted by law.
         </p>
 
         <h2 id="security">8. Data Security</h2>
